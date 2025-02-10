@@ -592,8 +592,7 @@ function OrionLib:MakeWindow(WindowConfig)
 		Size = UDim2.new(1, -30, 2, 0),
 		Position = UDim2.new(0, 25, 0, -24),
 		Font = Enum.Font.GothamBlack,
-		TextSize = 20,
-        RichText = true,
+		TextSize = 20
 	}), "Text")
 
 	local WindowTopBarLine = AddThemeObject(SetProps(MakeElement("Frame"), {
